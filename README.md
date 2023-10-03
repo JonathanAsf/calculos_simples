@@ -1,5 +1,5 @@
 # Compilado de cálculos #
-## Neste programa você poderá fazer os seguintes cálculos##
+## Neste programa você poderá fazer os seguintes cálculos: ##
 
 * IMC
 * Salario bruto
