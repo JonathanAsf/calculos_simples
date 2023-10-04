@@ -7,4 +7,5 @@
 * Conversão de unidades de medidas
 * Conversão de unidades de temperatura
 * Calculo de area quadrada
-* Media pondeirada
+* Bonificação
+* Controle de estoque
