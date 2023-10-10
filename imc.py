@@ -18,4 +18,4 @@ elif imc >= 40:
     print("Você está com OBESIDADE MÓRBIDA. Procure um médico URGENTEMENTE")
 else:
     print("Erro inesperado")
-print(f"O seu IMC é: {imc}")
+print(f"O seu IMC é: {imc:.2f}")

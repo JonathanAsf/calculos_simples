@@ -10,9 +10,9 @@ if vendas_funcionario >= meta:
     print("O funcionário tem direito ao bônus!")
     if vendas_funcionario >= (meta*2):  
         print("O bônus do funcionário é de: R$ {} (15% sobre o valor total)".format(vendas_funcionario*0.15))
-        print("O total a receber é: {}".format((vendas_funcionario*0.15)+vendas_funcionario))
+        print(f"O total a receber é: {(vendas_funcionario*0.15)+vendas_funcionario:.2f}")
     else :
         print("O bônus do funcionário é de: R$ {}  (10% sobre o valor total)".format(vendas_funcionario*0.10))
-        print("O total a receber é: {}".format((vendas_funcionario*0.10)+vendas_funcionario))
+        print(f"O total a receber é: {( vendas_funcionario*0.10)+vendas_funcionario:.2f}")
 else:
      print("O funcionário não teve bônus, pois suas vendas não alcançam a meta")

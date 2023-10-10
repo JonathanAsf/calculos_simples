@@ -88,7 +88,8 @@ elif escolha == 4:
     print("Descubra quanto é o seu salario bruto com base nas horas trabalhadas mensalmente e o valor da hora")
     ganho_hora = float(input("Digite quanto você ganhar por hora: R$"))
     horas_trabalhadas = float(input("Digite a quantidade de horas trabalhadas semanalmente: "))
-    print("O seu salário é: R$ {}".format((horas_trabalhadas*4)*ganho_hora))
+    print(f"O seu salário é: R$ {(horas_trabalhadas*4)*ganho_hora:.2f}")
+
 
 elif escolha == 5:
     print("Descubra o seu salário líquido")
@@ -108,8 +109,8 @@ elif escolha == 5:
     else:
         descontos = (desconto_INSS + desconto_IR)
 
-    print("O salário líquido é de: R${}".format(salario_bruto-descontos))
-
+    print(f"O salário líquido é de: R${(salario_bruto-descontos)}")
+    
 elif escolha == 6:
     meta = int(input("Digite o valor da meta de vendas: "))
     vendas_funcionario = int(input("Valor gerado nas vendas do funcionário: "))
@@ -118,13 +119,13 @@ elif escolha == 6:
         print("O funcionário tem direito ao bônus!")
         if vendas_funcionario >= (meta*2):  
             print("O bônus do funcionário é de: R$ {} (15% sobre o valor total)".format(vendas_funcionario*0.15))
-            print("O total a receber é: {}".format((vendas_funcionario*0.15)+vendas_funcionario))
+            print(f"O total a receber é: {(vendas_funcionario*0.15)+vendas_funcionario:.2f}")
         else :
             print("O bônus do funcionário é de: R$ {}  (10% sobre o valor total)".format(vendas_funcionario*0.10))
-            print("O total a receber é: {}".format((vendas_funcionario*0.10)+vendas_funcionario))
+            print(f"O total a receber é: {( vendas_funcionario*0.10)+vendas_funcionario:.2f}")
     else:
         print("O funcionário não teve bônus, pois suas vendas não alcançam a meta")
-        
+
 elif escolha == 7:
     print("Cálculo de IMC")
     print("O IMC serve para identificar se o seu peso é o ideal de acordo com sua altura")

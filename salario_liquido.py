@@ -15,4 +15,4 @@ if sindicato == 1:
 else:
     descontos = (desconto_INSS + desconto_IR)
 
-print("O salário líquido é de: R${}".format(salario_bruto-descontos))
+print(f"O salário líquido é de: R${(salario_bruto-descontos)}")
